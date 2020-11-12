@@ -1,7 +1,7 @@
 import React, { Component, useRef } from "react";
 import './Login.css'; 
 import {Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import { AuthProvider } from "./context/AuthContext"
+import { AuthProvider } from "./context/authContext"
 
 
 
@@ -13,7 +13,6 @@ function SignUp(){
 
         return (
             
-     <AuthProvider>
             <div className="back">
             <Form id="signup" className="Login">
                 <h1 className="cool">
@@ -36,7 +35,6 @@ function SignUp(){
                     </button>
             </Form>
             </div>
-            </AuthProvider>
         )
     }
 

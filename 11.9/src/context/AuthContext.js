@@ -1,9 +1,9 @@
 import React, { useContext, useState, useEffect } from 'react'
 import {auth} from '../firebase'
 
-const AuthContext = React.createContext()
+const authContext = React.createContext()
 export function useAuth(){
-    return useContext(AuthContext)
+    return useContext(authContext)
 }
 
 export function AuthProvider ({children}){
@@ -26,9 +26,9 @@ export function AuthProvider ({children}){
     }
     
     return(
-        <AuthContext.Provider value={value}>
+        <authContext.Provider value={value}>
             {children}
-        </AuthContext.Provider>
+        </authContext.Provider>
 
 
     )

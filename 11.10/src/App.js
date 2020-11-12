@@ -8,6 +8,7 @@ import Login from "./Loginn";
 import Admin from "./Admin";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {LoginInfo} from "./LoginContext";
+import Signup from './signup';
 
 
 function App() {
@@ -22,12 +23,13 @@ function App() {
      <Router>
     <div className="App">
       <LoginInfo>
-      <Heading />
+      <Heading/>
       <Switch>
       <Route path="/" exact component={Home}/>
       <Route path="/appointment"component={Appointment}/>
       <Route path="/login"component={Login}/>
       <Route path="/admin"component={Admin}/>
+      <Route path = "/signup" component = {Signup}/>
       </Switch>
       <Contacts />
       </LoginInfo>

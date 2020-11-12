@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './Login.css'; 
-
+import {Link} from 'react-router-dom';
 
 import {Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
@@ -22,7 +22,10 @@ class Login extends Component {
                     Log in
                     </button>
                 <div className="text-center">
+                    <Link to='/signup'>
                     <a href="sign-up" className = "SignUp">Sign up</a>
+                    </Link>
+                    
                     <a href="forgot-password" className = "ForgotPass">Forgot password</a>
                 </div>
             </Form>
