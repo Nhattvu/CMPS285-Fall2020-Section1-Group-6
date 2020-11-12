@@ -1,0 +1,58 @@
+.Signup{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+    
+
+}
+
+.back{
+    background: peachpuff;
+    width: 40%;
+    margin: 75px auto 75px auto;
+    box-shadow: 5px 10px 25px 1px rgba(0,0,0,0.75);
+    padding-bottom:4%;
+    border-radius: 4px;
+}
+
+.textboxes {
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5% 0px 5% -25%;
+    width: 150%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.lists{
+    list-style-type: none;
+}
+
+.word{
+    text-align: center;
+}
+
+.cool{
+    text-align: center;
+}
+
+.CreateUserButton{
+
+    text-align: center;    
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5% 0px 5% 39%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
