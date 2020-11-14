@@ -1,7 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 13px;
-  width: 1500px;
+  width: auto;
   margin: 0px auto;
   }
 #menu{
@@ -10,39 +10,43 @@ body {
 }
 #banner{
   height: auto;
-  width: 1500px;
+  width: 100%;
+}
+#banner img{
+  max-width:100%;
+  height:auto;
 }
 #main1 #left1 {
-width: 500px;
+width: 33%;
 height: 500px;
 background: white;
 float: left; 
 }
 #main1 #middle1 {
-  width: 500px;
+  width: 34%;
   height: 500px;
   background: peachpuff;
   float: left;
 }
 #main1 #right1 {
-  width: 500px;
+  width: 33%;
   height: 500px;
   background: salmon;
   float: left; 
 }
 #main2 #left2 {
-  width: 500px;
+  width: 33%;
   height: 500px;
   background:salmon;
   float: left; 
   }
 #main2 #middle2 {
-  width: 500px;
+  width: 34%;
   height: 500px;
   background: white;
   float: left; }
 #main2 #right2 {
-  width: 500px;
+  width: 33%;
   height: 500px;
   background: peachpuff;
   float: left; 
@@ -50,7 +54,7 @@ float: left;
 
 #footer{
   background: lightcoral;
-  width: 1500px;
+  width: auto;
   text-align: center;
   list-style: none;
   height: 300px;
@@ -99,4 +103,16 @@ float: left;
   margin: auto 5px;
   font-size: 20px;
   color:white;
+}
+#calendar{
+  width:80%;
+  height: 25%;
+  margin: 50px auto;
+}
+#adminback{
+  width:80%;
+  height: 25%;
+  margin: 50px auto;
+  background: peachpuff;
+  padding: 3%;
 }
