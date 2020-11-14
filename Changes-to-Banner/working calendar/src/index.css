@@ -1,0 +1,118 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  width: auto;
+  margin: 0px auto;
+  }
+#menu{
+  background: plum;
+  height: 40px;
+}
+#banner{
+  height: auto;
+  width: 100%;
+}
+#banner img{
+  max-width:100%;
+  height:auto;
+}
+#main1 #left1 {
+width: 33%;
+height: 500px;
+background: white;
+float: left; 
+}
+#main1 #middle1 {
+  width: 34%;
+  height: 500px;
+  background: peachpuff;
+  float: left;
+}
+#main1 #right1 {
+  width: 33%;
+  height: 500px;
+  background: salmon;
+  float: left; 
+}
+#main2 #left2 {
+  width: 33%;
+  height: 500px;
+  background:salmon;
+  float: left; 
+  }
+#main2 #middle2 {
+  width: 34%;
+  height: 500px;
+  background: white;
+  float: left; }
+#main2 #right2 {
+  width: 33%;
+  height: 500px;
+  background: peachpuff;
+  float: left; 
+  }
+
+#footer{
+  background: lightcoral;
+  width: auto;
+  text-align: center;
+  list-style: none;
+  height: 300px;
+  clear: left;
+  line-height: auto; }
+#menu ul{
+  margin: 0px;
+  padding: 0px;}
+#menu ul li{
+  list-style: none;
+  float: left;}
+#menu ul li a{
+  text-decoration: none ;
+  font-size: 16px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(255, 255, 255); 
+  padding: 0px 20px 0px 20px; 
+  border-right: 1px solid white; }
+#menu ul li a.active {
+  background-color: orchid;}
+#banner img{
+  width: 1500px;}
+#left1 img{
+  height: auto;
+  width: 400px;
+  margin: 0px 50px;
+}
+#middle1 img{
+  height: auto;
+  width: 400px;
+  margin: 0px 50px;
+}
+#right1 img{
+  height: auto;
+  width: 400px;
+  margin: 0px 50px;
+}
+.footer{
+  height: 40px;
+  background-color: plum;
+}
+
+.contacts{
+  margin: auto 5px;
+  font-size: 20px;
+  color:white;
+}
+#calendar{
+  width:80%;
+  height: 25%;
+  margin: 50px auto;
+}
+#adminback{
+  width:80%;
+  height: 25%;
+  margin: 50px auto;
+  background: peachpuff;
+  padding: 3%;
+}
