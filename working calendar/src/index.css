@@ -105,8 +105,12 @@ float: left;
   color:white;
 }
 #calendar{
-  width:80%;
-  height: 25%;
+  background: peachpuff;
+  box-shadow: 5px 10px 25px 1px rgba(0,0,0,0.75);
+  padding:2%;
+  border-radius: 4px;
+  width:90%;
+  height: 550px;
   margin: 50px auto;
 }
 #adminback{
@@ -115,4 +119,73 @@ float: left;
   margin: 50px auto;
   background: peachpuff;
   padding: 3%;
+}
+#history{
+  width: 100%;
+  background: orchid;
+  padding: 5px;
+  border-radius: 10px;
+}
+.tabletop{
+  border-bottom: 5px solid orchid;
+  border-right: 5px solid orchid;
+  padding: 4px;
+  font-size: 40px;
+  text-align: left;
+  background: white;
+}.deletetop{
+  border-bottom: 5px solid orchid;
+  border-right: 5px solid orchid;
+  padding: 4px;
+  font-size: 40px;
+  text-align: left;
+  background: orchid;
+}
+.infocell{
+  border-right: 5px solid orchid;
+  border-bottom: 3px solid orchid; 
+  padding: 4px;
+  font-size: 20px;
+  background: white;
+  margin: 10px;
+}
+.deletecell{
+  background: red;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  color:white;
+  border-right: 5px solid orchid;
+  border-bottom: 3px solid orchid;
+}
+.requestbox{
+  width: 60%;
+  margin-top: 30px;
+}
+#requestwhole{
+  margin-top:20px;
+}
+#requestback{
+margin-left:5%;
+float:left;
+width:20%;
+}
+#schedule{
+float:left;
+width:70%;
+}
+.labels{
+font-size: 20px;
+}
+.requestbox input{
+font-size: 20px;
+}
+#submit{
+  background: orchid;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  margin: 50px 50px;
 }

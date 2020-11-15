@@ -1,10 +1,9 @@
 import React,{Component, useState} from 'react';
 import './index.css';
 import './material.css';
-import {Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import Request from "./Request";
 import { Inject, ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, ViewsDirective, ViewDirective, EventSettingsModel } from '@syncfusion/ej2-react-schedule';
 import { DataManager, WebApiAdaptor } from '@syncfusion/ej2-data';
-import { extend } from '@syncfusion/ej2-base';
 
 class Appointments extends React.Component {
 
@@ -54,8 +53,8 @@ onPopupOpen(args) {
 render(){
   return (
     <div>
-      <h1> Appointments</h1>
       <div id ="calendar">
+        <div id="schedule">
       <ScheduleComponent height='550px' startHour='07:00' endHour='18:00' readonly={true} showQuickInfo={true} popupOpen={this.onPopupOpen.bind(this)} timeScale={{ enable: true, interval: 60, slotCount: 2 }} ref={schedule => this.scheduleObj = schedule} eventSettings={{ dataSource: this.dataManger }} dataBinding={this.onDataBinding.bind(this)}>
       <ViewsDirective>
         <ViewDirective option = 'Day'/>
@@ -66,24 +65,10 @@ render(){
         <Inject services={[Day, Week, WorkWeek, Month, Agenda]}/>
       </ScheduleComponent>
       </div>
-      <Form>
-                <FormGroup>
-                    <input type="Name" placeholder="Full Name" />
-                </FormGroup>
-                <FormGroup>
-                    <input type="Email" placeholder="Email" />
-                </FormGroup>
-                <FormGroup>
-                    <input type="Date" placeholder="Date" />
-                </FormGroup>
-                <FormGroup>
-                    <input type="Time" placeholder="Time"/>
-                </FormGroup>
-                <button>
-                    Create Appointment
-                    </button>
-                
-            </Form>
+      <div id="requestback">
+        <Request />
+      </div>
+      </div>
        </div>
   );
 }

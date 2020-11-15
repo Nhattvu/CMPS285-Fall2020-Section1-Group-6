@@ -14,7 +14,7 @@ function Heading() {
             <li><a>Home</a></li>
             </Link>
             <Link to='/appointment'>
-            <li><a>Appointmnets</a></li>
+            <li><a>Schedule an Appointment</a></li>
             </Link>
             <Link to='/login'>
             <li><a>Login</a></li>
