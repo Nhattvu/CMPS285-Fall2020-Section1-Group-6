@@ -21,18 +21,21 @@ width: 33%;
 height: 500px;
 background: white;
 float: left; 
+padding-top:2%;
 }
 #main1 #middle1 {
   width: 34%;
   height: 500px;
-  background: peachpuff;
+  background: #f6cec6;
   float: left;
+  padding-top:2%;
 }
 #main1 #right1 {
   width: 33%;
   height: 500px;
   background: salmon;
   float: left; 
+  padding-top:2%;
 }
 #main2 #left2 {
   width: 33%;
@@ -48,7 +51,7 @@ float: left;
 #main2 #right2 {
   width: 33%;
   height: 500px;
-  background: peachpuff;
+  background: #f6cec6;
   float: left; 
   }
 
@@ -56,7 +59,6 @@ float: left;
   background: lightcoral;
   width: auto;
   text-align: center;
-  list-style: none;
   height: 300px;
   clear: left;
   line-height: auto; }
@@ -105,7 +107,7 @@ float: left;
   color:white;
 }
 #calendar{
-  background: peachpuff;
+  background: #f6cec6;
   box-shadow: 5px 10px 25px 1px rgba(0,0,0,0.75);
   padding:2%;
   border-radius: 4px;
@@ -117,7 +119,7 @@ float: left;
   width:80%;
   height: 25%;
   margin: 50px auto;
-  background: peachpuff;
+  background: #f6cec6;
   padding: 3%;
 }
 #history{
